@@ -39,7 +39,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'orange',
+    author: '橘子',
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
