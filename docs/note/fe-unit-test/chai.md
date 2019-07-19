@@ -1,5 +1,6 @@
 ---
 title: chai.js笔记
+sidebarDepth: 2
 ---
 ## BDD
 

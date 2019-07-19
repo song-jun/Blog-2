@@ -17,7 +17,8 @@ module.exports = {
       { text: 'Contact', 
         icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' }
+          { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' },
+          { text: '映象', link: 'http://zsw0407.gitee.io/images/index.html' }
         ]
       }
     ],
