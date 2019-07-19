@@ -9,8 +9,10 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     huawei: false,
+    displayAllHeaders: true, 
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
+      { text: 'Notes', link: '/note/', icon: 'reco-three'},
       { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
       { text: 'Contact', 
         icon: 'reco-message',
@@ -36,6 +38,18 @@ module.exports = {
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
     sidebar: 'auto',
+    sidebarDepth: 1,
+    displayAllHeaders: false,
+    sidebar: [
+      {
+        title: '前端单元测试',
+        children: [
+          '/note/fe-unit-test/chai',
+          '/note/fe-unit-test/mocha',
+          '/note/fe-unit-test/vueTestUtils'
+        ]
+      }
+    ],
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
