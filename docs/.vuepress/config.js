@@ -43,7 +43,15 @@ module.exports = {
     displayAllHeaders: false,
     sidebar: [
       {
+        title: 'HTML5',
+        collapsable: true,
+        children: [
+          '/note/html5/HTML5的语义元素'
+        ]
+      },
+      {
         title: '前端单元测试',
+        collapsable: true,
         children: [
           '/note/fe-unit-test/chai',
           '/note/fe-unit-test/mocha',
