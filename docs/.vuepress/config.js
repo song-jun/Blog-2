@@ -38,7 +38,6 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    sidebar: 'auto',
     sidebarDepth: 1,
     displayAllHeaders: false,
     sidebar: [
