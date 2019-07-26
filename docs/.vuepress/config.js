@@ -45,7 +45,9 @@ module.exports = {
         title: 'HTML5',
         collapsable: true,
         children: [
-          '/note/html5/HTML5的语义元素'
+          '/note/html5/HTML5的语义元素',
+          '/note/html5/HTML5多媒体标签',
+          '/note/html5/HTML5表单元素'
         ]
       },
       {
