@@ -5,6 +5,7 @@ sidebarDepth: 2
 ## 新的表单元素
 
 ### 新的Input类型
+
 <br>
 <form>
     <fieldset>
@@ -43,14 +44,23 @@ document.getElementById("userPhone").oninvalid=function(){
 ### datalist元素
 input 元素使用 datalist 预定义值
 
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer"></option>
+  <option value="Firefox"></option>
+  <option value="Chrome"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+</datalist>
+
 ```html
 <input list="browsers">
 <datalist id="browsers">
-  <option value="Internet Explorer">
-  <option value="Firefox">
-  <option value="Chrome">
-  <option value="Opera">
-  <option value="Safari">
+  <option value="Internet Explorer"></option>
+  <option value="Firefox"></option>
+  <option value="Chrome"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
 </datalist>
 ```
 ### output元素
@@ -84,6 +94,7 @@ input 元素使用 datalist 预定义值
 ### form
 - autocomplete = on | off          自动完成
 - novalidate = true | false        是否关闭校验
+ 
 ### input
 - autofocus : 自动获取焦点
 - multiple : 实现多选效果
@@ -105,7 +116,7 @@ input 元素使用 datalist 预定义值
   - 与 `type="submit"` 和 `type="image"` 配合使用
 - formnovalidate : 
   - 描述了 `<input>` 元素在表单提交时无需被验证
-  - 会覆盖 <form> 元素的`novalidate`属性
+  - 会覆盖 `<form>` 元素的`novalidate`属性
   - 与`type="submit"`一起使用  
 - formtarget : 
   - 指定一个名称或一个关键字来指明表单提交数据接收后的展示
