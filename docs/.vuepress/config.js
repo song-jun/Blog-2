@@ -12,7 +12,7 @@ module.exports = {
     displayAllHeaders: true, 
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'Notes', link: '/note/', icon: 'reco-three'},
+      { text: 'Notes', link: '/note/', icon: 'reco-document'},
       { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
       { text: 'Contact', 
         icon: 'reco-message',
