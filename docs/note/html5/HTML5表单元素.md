@@ -27,17 +27,40 @@ sidebarDepth: 2
 </form>
 
 ### 修改表单控件中的默认提示信息
+
+<br>
+<form action="1.php" method="get">
+		<input type="text" name="uname" pattern="^\d{4,11}" required class="uname">
+		<input type="submit" name=""><br><br>
+    正确格式为4到11位数字，请输入错误格式以测试
+</form>
+<script>
+  var input = document.querySelector(".uname");
+  input.oninvalid=function(){   	
+    if(this.validity.patternMismatch===true){
+      this.setCustomValidity("请输入4到11位数字");
+    }else{
+      this.setCustomValidity("");
+    }
+  }
+</script>
+
 1. 表单验证触发`oninvalid`事件
 2. 通过`setCustomValidity`方法设置修改内容
 ```html
-用户名：<input type="tel" name="userPhone" id="userPhone"><br>
-
+<form action="1.php" method="get">
+		<input type="text" name="uname" pattern="^\d{4,11}" required class="uname">
+		<input type="submit" name="">
+</form>
 <script>
-/*oninvalid:当验证不通过时触发*/
-document.getElementById("userPhone").oninvalid=function(){
-    /*设置默认的提示信息*/
-    this.setCustomValidity("请输入合法的11位手机号");
-}
+  var input = document.querySelector(".uname");
+  input.oninvalid=function(){   	
+    if(this.validity.patternMismatch===true){
+      this.setCustomValidity("请输入4到11位数字");
+    }else{
+      this.setCustomValidity("");
+    }
+  }
 </script>
 ```
 
