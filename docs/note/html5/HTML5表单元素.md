@@ -29,7 +29,7 @@ sidebarDepth: 2
 ### 修改表单控件中的默认提示信息
 
 <br>
-<form action="1.php" method="get">
+<form action="#" method="get">
 		<input type="text" name="uname" pattern="^\d{4,11}" required class="uname">
 		<input type="submit" name=""><br><br>
     正确格式为4到11位数字，请输入错误格式以测试
@@ -48,7 +48,7 @@ sidebarDepth: 2
 1. 表单验证触发`oninvalid`事件
 2. 通过`setCustomValidity`方法设置修改内容
 ```html
-<form action="1.php" method="get">
+<form action="#" method="get">
 		<input type="text" name="uname" pattern="^\d{4,11}" required class="uname">
 		<input type="submit" name="">
 </form>
