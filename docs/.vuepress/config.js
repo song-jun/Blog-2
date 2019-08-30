@@ -48,7 +48,8 @@ module.exports = {
           '/note/html5/HTML5的语义元素',
           '/note/html5/HTML5多媒体标签',
           '/note/html5/HTML5表单元素',
-          '/note/html5/HTML5中的API'
+          '/note/html5/HTML5中的API',
+          '/note/html5/Canvas'
         ]
       },
       {
@@ -68,7 +69,7 @@ module.exports = {
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
-    startYear: '2019'
+    startYear: '2019',
     /**
      * 密钥 (if your blog is private)
      */
@@ -83,10 +84,10 @@ module.exports = {
      * valine 设置 (if you need valine comment )
      */
 
-    // valineConfig: {
-    //   appId: '...',// your appId
-    //   appKey: '...', // your appKey
-    // }
+    valineConfig: {
+      appId: 'XDwlSXS2pD137bPrPpwQaqqD-gzGzoHsz',// your appId
+      appKey: 'CQ8FKrMUP76LwycPcKlDoRqV', // your appKey
+    }
   },
   markdown: {
     lineNumbers: true
