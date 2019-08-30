@@ -87,6 +87,8 @@ module.exports = {
     valineConfig: {
       appId: 'XDwlSXS2pD137bPrPpwQaqqD-gzGzoHsz',// your appId
       appKey: 'CQ8FKrMUP76LwycPcKlDoRqV', // your appKey
+      placeholder: '是时候展现真正的技术了',
+      avatar: 'wavatar'
     }
   },
   markdown: {
