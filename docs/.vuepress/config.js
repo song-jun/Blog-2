@@ -9,16 +9,21 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     huawei: false,
-    displayAllHeaders: true, 
+    themePicker: {
+      colorName1: '#0033FF', // 极浓海蓝
+      colorName2: '#8B00FF', // 紫罗兰色
+      colorName3: '#00BFFF', // 深天蓝
+      colorName4: '#FF8C00' // 暗橙
+    },
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'Notes', link: '/note/', icon: 'reco-document'},
       { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
+      { text: 'PhotoAlbum', link: 'http://zsw0407.gitee.io/images/index.html', icon: 'reco-blog'},
       { text: 'Contact', 
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' },
-          { text: '映象', link: 'http://zsw0407.gitee.io/images/index.html' }
         ]
       }
     ],
